@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {}
+
+.margin-bottom {
+    margin-bottom: 5px;
+}
+
+.card {
+    position: relative;
+    width: 360px;
+    min-height: 400px;
+    background-color: #fff;
+    box-shadow: 2px -1px 20px 3px rgb(0 0 0 / 20%);
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+header .wrap-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .wrap-header .logo img {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.wrap-header .text-head p {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+header .menu img {
+    width: 10px;
+}
+
+.content {
+    margin-top: 15px;
+}
+
+.content img {
+    width: 100%;
+}
+
+.react {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10px;
+    position: relative;
+}
+
+.react .wrap-react {
+    display: flex;
+}
+
+.react .wrap-react img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.react .wrap-react .share img {
+    position: relative;
+    top: 2.5px;
+}
+
+.react .save img {
+    width: 25px;
+}
+
+.personal {
+    margin-top: 10px;
+}
+
+.personal .personal-status p {
+    color: rgb(100, 98, 98);
+    display: inline-block;
+}
+
+.personal .personal-status h4 {
+    display: inline-block;
+}
+
+.personal .personal-status a {
+    text-decoration: none;
+    color: #0169b2;
+}
+
+.personal .personal-comment {
+    color: rgb(143, 141, 141);
+}
+
+.personal .img-ava {
+    width: 30px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.personal .wrap-comment-ava {
+    display: flex;
+    align-items: center;
+}
+
+.personal .img-ava img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.personal .write-comment {
+    display: inline-block;
+    border: none;
+    outline: none;
+}
